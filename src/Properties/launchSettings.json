@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "SteamCardExchangeParser": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "commandLineArgs": "-v data:/usr/data:"
+    }
+  }
+}
